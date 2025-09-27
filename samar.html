@@ -137,6 +137,21 @@
             margin-bottom: 30px;
         }
 
+        .profile-photo::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 180px;
+    height: 180px;
+    /* REPLACE THIS LINE WITH YOUR PHOTO */
+    background: url('./samar.jpg') center/cover;
+    /* Alternative: Use this placeholder until you add your photo */
+    background: url('data:image/svg+xml,...') center/cover;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
         .profile-photo {
             width: 200px;
             height: 200px;
