@@ -141,6 +141,7 @@ header h1 {
   margin-bottom: 10px;
   background: linear-gradient(45deg, #fff, #e2e8f0);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: fadeInUp 1s ease-out 0.2s both;
 }
@@ -492,7 +493,9 @@ section {
 }
 
 .contact-info {
-  space-y: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .contact-item {
